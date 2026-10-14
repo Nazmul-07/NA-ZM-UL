@@ -391,7 +391,7 @@ export default function HomePage() {
           </p>
 
           <Link
-            href="/signup"
+            href="/sign-up"
             className="text-sm font-medium text-violet-300 transition hover:text-violet-200"
           >
             Start your journey <ArrowRight className="ml-1 inline" size={15} />

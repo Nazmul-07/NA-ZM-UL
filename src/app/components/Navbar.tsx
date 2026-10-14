@@ -279,7 +279,7 @@ export default function Navbar() {
             ) : (
               <>
                 <NextLink
-                  href="/login"
+                  href="/sign-in"
                   onClick={closeMenu}
                   className="flex h-11 w-full items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 text-sm font-semibold text-white hover:bg-white/10"
                 >
@@ -288,7 +288,7 @@ export default function Navbar() {
                 </NextLink>
 
                 <NextLink
-                  href="/signup"
+                  href="/sign-up"
                   onClick={closeMenu}
                   className="flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-violet-600 text-sm font-semibold text-white hover:bg-violet-500"
                 >
